@@ -672,18 +672,14 @@ footer {
 
 /* Specific styles for the Award image */
 .award-image {
-    transform: rotate(90deg) scale(1.8);
-    transform-origin: center;
-    transition: transform 0.3s ease;
     width: 100%;
     height: 100%;
-    max-width: none;
-    max-height: none;
     object-fit: contain;
+    transition: transform 0.3s ease;
 }
 
 .image-placeholder:has(.award-image) {
-    min-height: 600px;
+    min-height: 500px;
     padding: 2rem;
     display: flex;
     align-items: center;
